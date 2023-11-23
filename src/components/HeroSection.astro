@@ -1,32 +1,26 @@
+---
+import Section from "./Section.astro"
+---
 
-<section class="bg-black h-screen w-screen text-center relative landing-section"
-         data-header-color="white"
->
+<Section
+    title="Disfrute de tesla"
+    subtitle="Programe una prueba de conducción hoy mismo"
+    color="white">
 
-    <div class="z-30 h-full flex flex-col relative text-white">
-        <header>
-            <h2 class="pt-40 text-[40px] font-medium">Disfrute de Tesla</h2>
-            <p class="text-sm">Programe una prueba de conducción hoy mismo</p>
-        </header>
-
-        <footer class="flex flex-col flex-grow justify-end pb-20">
-            <div>
-                <a  href="#"
-                    class="border-[3px] border-white bg-white/5 backdrop-blur-sm text-sm rounded font-medium px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors">
-                    Prueba de Conducción
-                </a>
-            </div>
-
-        </footer>
+    <div slot="footer">
+        <a  href="#"
+            class="border-[3px] border-white bg-white/5 backdrop-blur-sm text-sm rounded font-medium px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors">
+            Prueba de Conducción
+        </a>
     </div>
 
-    <div class="absolute top-0 bottom-0 h-full w-full z-10">
-        <video 
-            class="object-center object-cover h-full w-full"
-            autoplay 
-            muted 
-            loop 
-            src="/videoTesla.webm">
-        </video>
-    </div>
-</section>
+    <video
+        slot="background"
+        class="object-center object-cover h-full w-full"
+        autoplay 
+        muted 
+        loop 
+        src="/videoTesla.webm">
+    </video>
+
+</Section>
