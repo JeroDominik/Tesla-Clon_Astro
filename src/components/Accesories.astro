@@ -1,0 +1,27 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section
+    title="Accesorios"
+    subtitle="Forma el mejor ecosistema con todos nuestros Accesorios"
+    color="black"
+    id="accesories"
+    showFooterContent="true">
+
+    <div class="flex mx-auto"
+         slot="footer">
+        <a  href="#"
+            class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium px-12 py-2 text-white inline-block hover:border-gray-500 hover:bg-gray-500 transition-colors"
+        >
+            Comprar Ahora
+        </a>
+    </div>
+
+    <img 
+    slot="background"
+    src="accessories.avif" 
+    class="object-center object-cover h-full w-full"
+    alt="Imagen Accesorios">
+
+</Section>

@@ -10,22 +10,21 @@ import Logo from "./Logo.astro"
         <Logo/>
     </div>
 
-    <nav>
+    <nav class="hidden lg:block lg:ml-5 sm:hidden">
         <ul class="flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-300 [&>li>a]:font-medium [&>li>a]:text-current [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
-            <li><a href="#">Model S</a></li>
-            <li><a href="#">Model 3</a></li>
-            <li><a href="#">Model X</a></li>
-            <li><a href="#">Model Y</a></li>
-            <li><a href="#">Powerwall</a></li>
-            <li><a href="#">Carga</a></li>
+            <li><a href="#model-y">Model Y</a></li>
+            <li><a href="#model-3">Model 3</a></li>
+            <li><a href="#model-s">Model S</a></li>
+            <li><a href="#model-x">Model X</a></li>
+            <li><a href="#powerwall">Powerwall</a></li>
+            <li><a href="#accesories">Carga</a></li>
         </ul>
     </nav>
 
-    <nav class="flex flex-grow basis-0 justify-end">
+    <nav class="flex flex-grow basis-0 justify-end lg:ml-5">
         <ul class="flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-300 [&>li>a]:font-medium [&>li>a]:text-current [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
-            <li><a href="#">Soporte</a></li>
-            <li><a href="#">Tienda</a></li>
-            <li><a href="#">Cuenta</a></li>
+            <li class="hidden lg:block sm:hidden"><a href="#">Tienda</a></li>
+            <li class="hidden lg:block sm:hidden"><a href="#">Cuenta</a></li>
             <li><a href="#">Menu</a></li>
         </ul>
     </nav>

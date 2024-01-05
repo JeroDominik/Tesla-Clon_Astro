@@ -3,12 +3,17 @@ import Layout from '../layouts/Layout.astro';
 import LandingHeader from '../components/LandingHeader.astro';
 import HeroSection from '../components/HeroSection.astro';
 import ModelY from '../components/ModelY.astro';
+import ModelS from '../components/ModelS.astro';
+import ModelThree from '../components/ModelThree.astro';
+import ModelX from '../components/ModelX.astro';
+import PowerWall from '../components/PowerWall.astro';
+import Accesories from '../components/Accesories.astro';
 ---
 
 <Layout title="Tesla - El auto de Elon">
 	<LandingHeader/>
 
-	<main class="snap-y snap-mandatory relative h-screen w-full overflow-auto overflow-x-hidden scroll-smooth">
+	<main class="snap-y snap-mandatory relative h-screen w-full overflow-y-auto overflow-x-hidden scroll-smooth">
 
 		<div class="snap-center">
 			<HeroSection/>
@@ -17,12 +22,20 @@ import ModelY from '../components/ModelY.astro';
 			<ModelY/>
 		</div>
 		<div class="snap-center">
-			<HeroSection/>
+			<ModelThree/>
 		</div>
 		<div class="snap-center">
-			<ModelY/>
+			<ModelS/>
 		</div>
-
+		<div class="snap-center">
+			<ModelX/>
+		</div>
+		<div class="snap-center">
+			<PowerWall/>
+		</div>
+		<div class="snap-center">
+			<Accesories/>
+		</div>
 	</main>
 </Layout>
 
