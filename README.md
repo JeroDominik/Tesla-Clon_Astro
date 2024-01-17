@@ -1,5 +1,6 @@
 App Web Clon de Tesla
 
-![image](https://github.com/JeroDominik/Tesla-Clon_Astro/assets/85588795/738b2179-7b75-431f-b8ff-a886205d62dd)
+![Captura de pantalla (4)](https://github.com/JeroDominik/Tesla-Clon_Astro/assets/85588795/fa0c5247-bd7c-413a-8115-dbc6ff872bb1)
+
 
 Creditos al genio de Midudev
